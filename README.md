@@ -151,7 +151,7 @@ queuectl/
 ```
 
 
-### Author
+### 👨‍💻 Author
 **Visshal Singh**
 📧 [vshl2706@gmail.com](mailto:vshl2706@gmail.com)  
-🌐 [GitHub Profile]([https://github.com/your-username](https://github.com/vshl2706))
+🌐 [GitHub Profile](https://github.com/vshl2706)
