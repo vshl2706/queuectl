@@ -3,6 +3,9 @@
 > 🚀 A simple yet powerful **Command-Line Job Queue Manager** built using **Node.js**, **LowDB**, and **Commander.js**.  
 > Enqueue jobs, process them with multiple workers, track their status, and manage failed jobs through a **Dead Letter Queue (DLQ)** — all from your terminal.
 
+## 🎬 Project Demo
+🔗 [Watch the Demo Video](https://www.loom.com/share/1cd23ba4f1e349b1831e16eccbd4ed21)
+
 ## 📜 Table of Contents
 
 - [About the Project](#-about-the-project)
