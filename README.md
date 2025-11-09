@@ -58,13 +58,13 @@ It supports:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone git clone https://github.com/<your-username>/queuectl.git
+git clone git clone https://github.com/vshl2706/queuectl.git
 cd queuectl
 ```
 ### 2️⃣ Install Dependencies
 npm install
 
-###3️⃣ Link CLI Globally - It is optional
+### 3️⃣ Link CLI Globally (optional)
 npm link
 
 Now you can use the command anywhere
@@ -148,12 +148,12 @@ queuectl/
 ![Enqueue Job](./Screenshots/Enqueue_Job.png)
 
 ### ⚙️ Worker Start
-![Worker Start](./Screenshots/Worker_Start.png)
+![Status and list](./Screenshots/Status_and_list.png.png)
 
 ### 💀 Dead Letter Queue
 ![Dead Letter Queue](./Screenshots/Worker_Start_and_dlq.png)
 
-### ♻️ Retry Job
+### ♻️ Config
 ![config](./Screenshots/Config.png)
 
 ---
