@@ -3,27 +3,6 @@
 > 🚀 A simple yet powerful **Command-Line Job Queue Manager** built using **Node.js**, **LowDB**, and **Commander.js**.  
 > Enqueue jobs, process them with multiple workers, track their status, and manage failed jobs through a **Dead Letter Queue (DLQ)** — all from your terminal.
 
----
-
-## 🖼️ Preview
-
-<!-- Add your screenshots here -->
-## 📸 Screenshots
-
-### 🧩 Enqueue Job
-![Enqueue Job](./Screenshots/EnqueueJob.png)
-
-### ⚙️ Worker Start
-![Worker Start](./Screenshots/Worker Start.png)
-
-### 💀 Dead Letter Queue
-![Dead Letter Queue](./Screenshots/Worker Start and dlq.png)
-
-### ♻️ Retry Job
-![config](./Screenshots/Config.png)
-
----
-
 ## 📜 Table of Contents
 
 - [About the Project](#-about-the-project)
@@ -34,9 +13,7 @@
 - [Example Workflow](#-example-workflow)
 - [Command Reference](#-command-reference)
 - [Project Structure](#-project-structure)
-- [Future Enhancements](#-future-enhancements)
 - [Screenshots](#-screenshots)
-- [License](#-license)
 
 ---
 
@@ -159,6 +136,27 @@ queuectl/
 ├── package.json
 └── README.md
 ```
+
+---
+
+## 🖼️ Preview
+
+<!-- Add your screenshots here -->
+## 📸 Screenshots
+
+### 🧩 Enqueue Job
+![Enqueue Job](./Screenshots/Enqueue_Job.png)
+
+### ⚙️ Worker Start
+![Worker Start](./Screenshots/Worker_Start.png)
+
+### 💀 Dead Letter Queue
+![Dead Letter Queue](./Screenshots/Worker_Start_and_dlq.png)
+
+### ♻️ Retry Job
+![config](./Screenshots/Config.png)
+
+---
 
 
 ### 👨‍💻 Author
