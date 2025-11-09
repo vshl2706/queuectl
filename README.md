@@ -131,6 +131,7 @@ queuectl dlq --retry <jobId>
 ```
 
 ### Project Structure
+```bash
 queuectl/
 ├── src/
 │   ├── cli.js                # Main CLI entry point
@@ -147,3 +148,4 @@ queuectl/
 ├── db.json                   # Queue data store
 ├── package.json
 └── README.md
+```
