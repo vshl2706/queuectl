@@ -71,5 +71,15 @@ It supports:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/queuectl.git
+git clone git clone https://github.com/<your-username>/queuectl.git
 cd queuectl
+
+### 2️⃣ Install Dependencies
+npm install
+
+###3️⃣ Link CLI Globally - It is optional
+npm link
+
+Now you can use the command anywhere
+queuectl --help
+
