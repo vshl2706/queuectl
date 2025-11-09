@@ -73,7 +73,7 @@ It supports:
 ```bash
 git clone git clone https://github.com/<your-username>/queuectl.git
 cd queuectl
-
+```
 ### 2️⃣ Install Dependencies
 npm install
 
@@ -83,3 +83,67 @@ npm link
 Now you can use the command anywhere
 queuectl --help
 
+## Usage
+Enqueue a New Job
+```bash
+queuectl enqueue "{\"command\":\"echo Hello\"}"
+```
+
+Start Workers
+```bash
+queuectl worker start --count 2
+```
+
+View Queue Status
+```bash
+queuectl status
+```
+
+List jobs by state
+```bash
+queuectl list --state completed
+```
+
+Manage Dead Letter Queue (DLQ)
+```bash
+# List failed jobs
+queuectl dlq --list
+
+# Retry a failed job
+queuectl dlq --retry <jobId>
+```
+
+### Example Workflow
+```bash
+# 1. Add jobs
+queuectl enqueue "{\"command\":\"echo Hello\"}"
+queuectl enqueue "{\"command\":\"sleep 2\"}"
+
+# 2. Start 2 parallel workers
+queuectl worker start --count 2
+
+# 3. Check overall status
+queuectl status
+
+# 4. Retry jobs from DLQ if any
+queuectl dlq --list
+queuectl dlq --retry <jobId>
+```
+
+### Project Structure
+queuectl/
+├── src/
+│   ├── cli.js                # Main CLI entry point
+│   ├── core/
+│   │   └── storage.js        # LowDB configuration
+│   ├── commands/
+│   │   ├── enqueue.js
+│   │   ├── worker.js
+│   │   ├── list.js
+│   │   ├── status.js
+│   │   ├── dlq.js
+│   │   └── config.js
+│
+├── db.json                   # Queue data store
+├── package.json
+└── README.md
