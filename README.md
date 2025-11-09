@@ -83,7 +83,7 @@ npm link
 Now you can use the command anywhere
 queuectl --help
 
-## Usage
+## 🧑‍💻 Usage
 Enqueue a New Job
 ```bash
 queuectl enqueue "{\"command\":\"echo Hello\"}"
@@ -113,7 +113,7 @@ queuectl dlq --list
 queuectl dlq --retry <jobId>
 ```
 
-### Example Workflow
+### 🔁 Example Workflow
 ```bash
 # 1. Add jobs
 queuectl enqueue "{\"command\":\"echo Hello\"}"
@@ -130,7 +130,7 @@ queuectl dlq --list
 queuectl dlq --retry <jobId>
 ```
 
-### Project Structure
+### 🗂️ Project Structure
 ```bash
 queuectl/
 ├── src/
@@ -149,3 +149,9 @@ queuectl/
 ├── package.json
 └── README.md
 ```
+
+
+### Author
+**Visshal Singh**
+📧 [vshl2706@gmail.com](mailto:vshl2706@gmail.com)  
+🌐 [GitHub Profile]([https://github.com/your-username](https://github.com/vshl2706))
