@@ -8,9 +8,19 @@
 ## 🖼️ Preview
 
 <!-- Add your screenshots here -->
-<p align="center">
-  <img src="./assets/screenshot1.png" alt="QueueCTL CLI Example" width="600"/>
-</p>
+## 📸 Screenshots
+
+### 🧩 Enqueue Job
+![Enqueue Job](./Screenshots/Enqueue Job.png)
+
+### ⚙️ Worker Start
+![Worker Start](./Screenshots/Worker Start.png)
+
+### 💀 Dead Letter Queue
+![Dead Letter Queue](./Screenshots/Worker Start and dlq.png)
+
+### ♻️ Retry Job
+![config](./Screenshots/Config.png)
 
 ---
 
