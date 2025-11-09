@@ -147,8 +147,8 @@ queuectl/
 ### 🧩 Enqueue Job
 ![Enqueue Job](./Screenshots/Enqueue_Job.png)
 
-### ⚙️ Worker Start
-![Status and list](./Screenshots/Status_and_list.png.png)
+### ⚙️ Status and List
+![Status and list](./Screenshots/Status_and_list.png)
 
 ### 💀 Dead Letter Queue
 ![Dead Letter Queue](./Screenshots/Worker_Start_and_dlq.png)
